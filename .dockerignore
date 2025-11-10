@@ -1,0 +1,14 @@
+# Reduce build context and keep sensitive files out of the image
+node_modules
+.next
+.git
+.env
+.env.*
+*.log
+dist
+coverage
+npm-debug.log
+Dockerfile
+docker-compose*.yml
+/.vscode
+/.idea
